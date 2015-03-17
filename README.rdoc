@@ -1,3 +1,8 @@
-= Title
+== Title
+
+gem 'title'
+
+Set all page title Base on Controller and Action in Development Mode and use in production.
+
 
 This project rocks and uses MIT-LICENSE.
