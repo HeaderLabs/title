@@ -1,6 +1,11 @@
 == Title
 
-gem 'title'
+gem 'title', :git => 'git@github.com:anil826/title.git'
+
+=== Add Line to route.rb file
+  mount Title::Engine => "/title"
+=== Add Line to application.html.erb
+<%= form_index %>
 
 Set all page title Base on Controller and Action in Development Mode and use in production.
 

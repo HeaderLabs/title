@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    title (0.0.1)
+    title (0.0.2)
       rails (~> 4.2.0)
 
 GEM
@@ -76,7 +76,7 @@ GEM
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
-    rails-dom-testing (1.0.5)
+    rails-dom-testing (1.0.6)
       activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6.0)
       rails-deprecated_sanitizer (>= 1.0.1)

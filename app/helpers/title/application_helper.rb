@@ -6,10 +6,9 @@ module Title
       #data =YAML::load_file(File.join(Rails.root, 'page_title.yml'))
       @file_path = File.join(Rails.root, 'page_title.yml')
       data = ((YAML::load_file(@file_path) rescue nil)|| {})
-
       logger.info "=============#{data.inspect}============"
       logger.info "================#{key.inspect}=================="
-      title = [data['root-name']].present? ? [data['root-name']] : [data['root-name#']]
+      title = [data['root-name']]
       value = data[key]
       unless value.nil?
         logger.info "===========inspecting==#{value.inspect}================="
