@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Title::VERSION
   s.authors     = ["Anil Yadav"]
   s.email       = ["1993anilyadav@gmail.com"]
-  s.homepage    = "http://www.anilyadav.in"
+  s.homepage    = "http://rubygems.org/gems/titile"
   s.summary     = "Gem Demo for Pages Title"
   s.description = "Easy To Set Title of Every Page"
   s.license     = "MIT"

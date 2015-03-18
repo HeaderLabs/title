@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    title (0.0.2)
+    title (1.0.0)
       rails (~> 4.2.0)
 
 GEM
