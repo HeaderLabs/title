@@ -1,6 +1,7 @@
 == Title
 
-gem 'title', :git => 'git@github.com:anil826/title.git'
+ gem 'title', :git => 'https://github.com/anil826/title.git'
+
 
 === Add Line to route.rb file
   mount Title::Engine => "/title"
