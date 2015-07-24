@@ -6,7 +6,11 @@
 === Add Line to route.rb file
   mount Title::Engine => "/title"
 === Add Line to application.html.erb
+Inside Head
+<title><%= full_title(yield(:title)) %></title>
+Inside body
 <%= form_index %>
+
 
 Set all page title Base on Controller and Action in Development Mode and use in production.
 
