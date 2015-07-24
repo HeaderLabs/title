@@ -6,11 +6,12 @@
 === Add Line to route.rb file
   mount Title::Engine => "/title"
 === Add Line to application.html.erb
-Inside Head
+===Inside Head
 
 <title><%= full_title(yield(:title)) %></title>
 
-Inside body
+===Inside body
+
 <%= form_index %>
 
 
