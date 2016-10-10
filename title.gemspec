@@ -7,8 +7,8 @@ require "title/version"
 Gem::Specification.new do |s|
   s.name        = "title"
   s.version     = Title::VERSION
-  s.authors     = ["Anil Yadav"]
-  s.email       = ["1993anilyadav@gmail.com"]
+  s.authors     = ["HeaderLabs"]
+  s.email       = ["praveen@headerlabs.com"]
   s.homepage    = "http://rubygems.org/gems/titile"
   s.summary     = "Gem Demo for Pages Title"
   s.description = "Easy To Set Title of Every Page"

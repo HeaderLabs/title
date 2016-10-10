@@ -2,8 +2,8 @@ require_dependency "title/application_controller"
 
 module Title
   class AppController < ApplicationController
-    before_filter :load_title_yml
-    before_filter :set_root_name
+    before_action :load_title_yml
+    before_action :set_root_name
 
     def index
     end
